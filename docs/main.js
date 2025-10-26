@@ -3774,7 +3774,7 @@ const divQuestion = document.getElementById("divQuestion");
 const divAnswer = document.getElementById("divAnswer");
 const divAnswerText = document.getElementById("divAnswerText");
 const divResult = document.getElementById("divResult");
-const akWordWebYoudao = document.getElementById("akWordWebYoudao");
+const iframeWeb = document.getElementById("iframeWeb");
 const btnNewQuestion = document.getElementById("btnNewQuestion");
 const btnCheckAnswer = document.getElementById("btnCheckAnswer");
 const txtInputAnswer = document.getElementById("txtInputAnswer");
@@ -3807,7 +3807,6 @@ btnNewQuestion.addEventListener("click", function () {
     divQuestion.innerText = `/${word.Phonetic}/`;
     txtInputAnswer.value = "";
     divAnswer.style.display = "none";
-    akWordWebYoudao.href = `https://m.youdao.com/m/result?word=${word.Word}&lang=en`;
     divAnswerText.innerText = `${word.Word}\n/${word.Phonetic}/\n${word.Translation}`.trim();
 });
 function CheckAnswer() {
@@ -3829,6 +3828,7 @@ function CheckAnswer() {
         divResult.style.color = "red";
     }
     divAnswer.style.display = "block";
+    iframeWeb.src = `https://m.youdao.com/m/result?word=${lastWord.Word}&lang=en`;
 }
 btnCheckAnswer.addEventListener("click", CheckAnswer);
 selWordGroup.disabled = false;

@@ -27,7 +27,7 @@ const divQuestion = document.getElementById("divQuestion") as HTMLDivElement
 const divAnswer = document.getElementById("divAnswer") as HTMLDivElement
 const divAnswerText = document.getElementById("divAnswerText") as HTMLElement
 const divResult = document.getElementById("divResult") as HTMLDivElement
-const akWordWebYoudao = document.getElementById("akWordWebYoudao") as HTMLAnchorElement
+const iframeWeb = document.getElementById("iframeWeb") as HTMLIFrameElement
 const btnNewQuestion = document.getElementById("btnNewQuestion") as HTMLButtonElement
 const btnCheckAnswer = document.getElementById("btnCheckAnswer") as HTMLButtonElement
 const txtInputAnswer = document.getElementById("txtInputAnswer") as HTMLInputElement
@@ -66,7 +66,6 @@ btnNewQuestion.addEventListener("click", function () {
     divQuestion.innerText = `/${word.Phonetic}/`
     txtInputAnswer.value = ""
     divAnswer.style.display = "none"
-    akWordWebYoudao.href = `https://m.youdao.com/m/result?word=${word.Word}&lang=en`
     divAnswerText.innerText = `${word.Word}\n/${word.Phonetic}/\n${word.Translation}`.trim()
 })
 
@@ -84,6 +83,7 @@ function CheckAnswer() {
         divResult.style.color = "red"
     }
     divAnswer.style.display = "block"
+    iframeWeb.src = `https://m.youdao.com/m/result?word=${lastWord.Word}&lang=en`
 }
 
 btnCheckAnswer.addEventListener("click", CheckAnswer)
