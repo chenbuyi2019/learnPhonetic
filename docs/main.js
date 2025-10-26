@@ -3727,6 +3727,29 @@ function ImportWordsData() {
     AddWord(`zoo`, `zu:`, [`zk`, `gk`, `ielts`], `n. 动物园`);
     AddWord(`zoom`, `zu:m`, [`gk`, `ky`], `n. 急速上升, 变焦摄影, 嗡嗡声\nvi. 猛增, 急速上升, 摄象机移动\nvt. 使摄象机移动\n[计] 缩放`);
 }
+function makeButtonCooldown(e, timeoutMs = 1000) {
+    e.disabled = true;
+    if (timeoutMs < 1) {
+        return;
+    }
+    setTimeout(() => {
+        if (e == null) {
+            return;
+        }
+        e.disabled = false;
+    }, timeoutMs);
+}
+function makeButtonsCooldown(array, timeoutMs = 1000) {
+    for (const e of array) {
+        makeButtonCooldown(e, timeoutMs);
+    }
+}
+function getRandomInt(min, max) {
+    if (min > max) {
+        throw new Error('最小值不能大于最大值');
+    }
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 const allWords = [];
 function AddWord(word, phonetic, tags, trans) {
     word = word.toLowerCase().trim();
@@ -3741,13 +3764,66 @@ function AddWord(word, phonetic, tags, trans) {
 ImportWordsData();
 console.log("导入单词完成", allWords.length);
 const selWordGroup = document.getElementById("selWordGroup");
-selWordGroup.disabled = false;
+const divQuestion = document.getElementById("divQuestion");
+const divAnswer = document.getElementById("divAnswer");
+const divAnswerText = document.getElementById("divAnswerText");
+const divResult = document.getElementById("divResult");
+const akWordWebYoudao = document.getElementById("akWordWebYoudao");
+const btnNewQuestion = document.getElementById("btnNewQuestion");
+const btnCheckAnswer = document.getElementById("btnCheckAnswer");
+const txtInputAnswer = document.getElementById("txtInputAnswer");
+const buttons = [btnNewQuestion, btnCheckAnswer];
+const allGroups = new Map();
 for (const opt of selWordGroup.options) {
-    let count = 0;
+    const groupName = opt.value;
+    let group = [];
     for (const w of allWords) {
-        if (w.Tags.includes(opt.value)) {
-            count += 1;
+        if (w.Tags.includes(groupName)) {
+            group.push(w);
         }
     }
-    opt.innerText += ` (${count})`;
+    allGroups.set(groupName, group);
+    opt.innerText += ` (${group.length})`;
 }
+let lastWord = null;
+btnNewQuestion.addEventListener("click", function () {
+    makeButtonsCooldown(buttons, 500);
+    divResult.innerText = "";
+    let group = selWordGroup.value;
+    let words = allGroups.get(group);
+    if (words == null || words.length < 1) {
+        return;
+    }
+    let index = getRandomInt(0, words.length - 1);
+    let word = words[index];
+    lastWord = word;
+    txtInputAnswer.disabled = false;
+    divQuestion.innerText = `/${word.Phonetic}/`;
+    txtInputAnswer.value = "";
+    divAnswer.style.display = "none";
+    akWordWebYoudao.href = `https://m.youdao.com/m/result?word=${word.Word}&lang=en`;
+    divAnswerText.innerText = `${word.Word}\n/${word.Phonetic}/\n${word.Translation}`.trim();
+});
+function CheckAnswer() {
+    if (lastWord == null) {
+        return;
+    }
+    let answer = txtInputAnswer.value.trim().toLowerCase();
+    if (answer.length < 1) {
+        return;
+    }
+    txtInputAnswer.disabled = true;
+    makeButtonsCooldown(buttons, 500);
+    if (answer == lastWord.Word) {
+        divResult.innerText = "正确";
+        divResult.style.color = "green";
+    }
+    else {
+        divResult.innerText = "错误";
+        divResult.style.color = "red";
+    }
+    divAnswer.style.display = "block";
+}
+btnCheckAnswer.addEventListener("click", CheckAnswer);
+selWordGroup.disabled = false;
+btnNewQuestion.disabled = false;

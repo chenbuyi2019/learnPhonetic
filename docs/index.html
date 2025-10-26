@@ -10,6 +10,31 @@
             max-width: 700px;
             margin: 0px auto;
         }
+
+        button {
+            font-size: large;
+            margin-top: 3px;
+        }
+
+        .monoFonts {
+            font-family: 'Cascadia Mono', 'Lucida Console', 'Consolas', monospace;
+            font-size: large;
+        }
+
+        #txtInputAnswer {
+            width: 300px;
+        }
+
+        #divResult {
+            font-size: large;
+            margin: 2px;
+        }
+
+        #divAnswer {
+            border: 1px dotted black;
+            margin: 5px;
+            white-space: pre-line;
+        }
     </style>
 </head>
 
@@ -17,17 +42,40 @@
     <h1>背音标</h1>
     <p>
         因为我记不住音标，在此写个小软件。
-        <br>
-        推荐： <a href="https://www.bilibili.com/video/BV1iV411z7Nj" target="_blank">英语兔 制作的 音标教学视频</a>
     </p>
 
-    <p>
-        选择单词集合： 
+    <div>
+        <p>
+            选择单词集合：
+        </p>
         <select id="selWordGroup" style="width: 200px; display: inline-block;" disabled>
             <option value="basic">基本</option>
             <option value="zk">中考</option>
             <option value="gk">高考</option>
         </select>
+        <br>
+        <button id="btnNewQuestion" disabled>出题</button>
+        <br>
+        <br>
+        <div id="divQuestion" class="monoFonts"></div>
+        <br>
+        <input id="txtInputAnswer" class="monoFonts" disabled>
+        <br>
+        <button id="btnCheckAnswer" disabled>检查</button>
+        <div id="divResult"></div>
+        <br>
+        <div id="divAnswer" style="display: none;" class="monoFonts">
+            <div id="divAnswerText"></div>
+            <a id="akWordWebYoudao" target="_blank">有道</a>
+        </div>
+    </div>
+
+    <p>
+        制作： 陈布衣
+        <br>
+        源码： <a href="https://www.bilibili.com/video/BV1iV411z7Nj" target="_blank">github</a>
+        <br>
+        推荐： <a href="https://www.bilibili.com/video/BV1iV411z7Nj" target="_blank">英语兔 制作的 音标教学视频</a>
     </p>
     <script src="./main.js"></script>
 </body>
