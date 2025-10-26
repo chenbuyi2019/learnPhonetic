@@ -6,5 +6,5 @@
 
 使用的单词音标数据来自 [skywind3000/ECDICT](https://github.com/skywind3000/ECDICT)   
 
-在线使用：  [点我](dd)
+在线使用：  [点我](https://chenbuyi2019.github.io/learnPhonetic/)  
 

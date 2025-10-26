@@ -8,7 +8,7 @@ function ImportWordsData() {
     AddWord(`aboard`, `ә'bɒ:d`, [`gk`, `cet4`, `ky`, `toefl`], `adv. 在船上, 在火车上, 在飞机上\nprep. 在...之上`);
     AddWord(`abolish`, `ә'bɒliʃ`, [`gk`, `cet6`, `ky`, `toefl`, `ielts`, `gre`], `vt. 废止, 革除, 消灭\n[经] 废除, 取消, 裁撤`);
     AddWord(`abortion`, `ә'bɒ:ʃәn`, [`gk`, `ielts`], `n. 流产, 堕胎, 失败, 夭折, 中止\n[医] 流产, 小产; 顿挫`);
-    AddWord(`about`, `ә'baut`, [`zk`, `gk`, `oxford`], `prep. 在...周围, 大约, 有关, 关于\nadv. 大约, 四处, 在附近, 周围`);
+    AddWord(`about`, `ә'baut`, [`zk`, `gk`, `oxford`, `basic`], `prep. 在...周围, 大约, 有关, 关于\nadv. 大约, 四处, 在附近, 周围`);
     AddWord(`above`, `ә'bʌv`, [`zk`, `gk`, `oxford`], `prep. 在上方, 超出\nadv. 在上面\na. 上述的, 上面的`);
     AddWord(`abroad`, `ә'brɒ:d`, [`zk`, `gk`, `toefl`, `oxford`], `adv. 往国外, 到室外, 到处\na. 往国外的, 在室外的, 广泛四散的`);
     AddWord(`abrupt`, `ә'brʌpt`, [`gk`, `cet6`, `ky`, `toefl`, `ielts`, `gre`], `a. 突然的, 唐突的, 陡峭的, 不连贯的`);
@@ -323,7 +323,7 @@ function ImportWordsData() {
     AddWord(`balcony`, `'bælkәni`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `n. 阳台, 戏院楼厅`);
     AddWord(`ball`, `bɒ:l`, [`zk`, `gk`, `oxford`], `n. 球, 舞会, 球状物\nv. 捏成球形`);
     AddWord(`ballet`, `'bælei`, [`gk`, `cet6`, `ky`, `toefl`, `ielts`], `n. 芭蕾舞`);
-    AddWord(`balloon`, `bә'lu:n`, [`zk`, `gk`, `cet4`, `ky`, `toefl`, `ielts`, `gre`], `n. 气球\nvt. 使成气球状\nvi. 膨胀如气球, 激增`);
+    AddWord(`balloon`, `bә'lu:n`, [`zk`, `gk`, `cet4`, `ky`, `toefl`, `ielts`, `gre`, `basic`], `n. 气球\nvt. 使成气球状\nvi. 膨胀如气球, 激增`);
     AddWord(`ballpoint`, ``, [`gk`], `n. 圆珠笔`);
     AddWord(`bamboo`, `bæm'bu:`, [`zk`, `gk`, `cet6`, `ielts`], `n. 竹子\n[医] 竹类`);
     AddWord(`ban`, `bæn`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `gre`, `oxford`], `n. 禁令\nvt. 禁止, 取缔`);
@@ -371,11 +371,11 @@ function ImportWordsData() {
     AddWord(`beauty`, `'bju:ti`, [`gk`, `cet4`, `ky`, `ielts`, `oxford`], `n. 美, 美人`);
     AddWord(`because`, `bi'kɒ:z`, [`zk`, `gk`, `oxford`], `conj. 因为`);
     AddWord(`become`, `bi'kʌm`, [`zk`, `gk`, `ielts`, `oxford`], `vi. 变成, 变得\nvt. 适合`);
-    AddWord(`bed`, `bed`, [`zk`, `gk`, `oxford`], `n. 床, 睡眠处, 河床, 底座, 路基, 一层\nvt. 提供宿处, 栽种, 安装\nvi. 睡, 形成坚实的一层`);
+    AddWord(`bed`, `bed`, [`zk`, `gk`, `oxford`, `basic`], `n. 床, 睡眠处, 河床, 底座, 路基, 一层\nvt. 提供宿处, 栽种, 安装\nvi. 睡, 形成坚实的一层`);
     AddWord(`bedclothes`, `'bedklәuðz`, [`gk`], `n. 铺盖, 床上用品\n[医] 铺盖, 被褥`);
     AddWord(`beddings`, `'bedɪŋ`, [`gk`], `n. 寝具；（建筑）[建] 基床；（家畜）草垫\na. 适于花坛种植的\nvt. 把…栽入苗床（bed的ing形式）\nvi. 睡（bed的ing形式）`);
     AddWord(`bedroom`, `'bedrum`, [`zk`, `gk`, `ielts`, `oxford`], `n. 卧室`);
-    AddWord(`bee`, `bi:`, [`zk`, `gk`, `cet4`, `ky`], `n. 蜜蜂, 聚会`);
+    AddWord(`bee`, `bi:`, [`zk`, `gk`, `cet4`, `ky`, `basic`], `n. 蜜蜂, 聚会`);
     AddWord(`beef`, `bi:f`, [`zk`, `gk`, `oxford`], `n. 牛肉, 肌肉\nvt. 养(牛), 宰(牛)\nvi. 抱怨, 告发`);
     AddWord(`beehive`, `'bi:haiv`, [`gk`], `n. 蜂窝, 蜂箱\n[机] 集气架, 蜂巢`);
     AddWord(`beer`, `biә`, [`gk`, `oxford`], `n. 啤酒\n[化] 啤酒`);
@@ -418,14 +418,14 @@ function ImportWordsData() {
     AddWord(`biochemistry`, `.baiәu'kemistri`, [`gk`, `toefl`], `n. 生物化学\n[化] 生物化学; 生化`);
     AddWord(`biography`, `bai'ɒgrәfi`, [`gk`, `ky`, `toefl`, `ielts`], `n. 传记`);
     AddWord(`biology`, `bai'ɒlәdʒi`, [`gk`, `cet4`, `ky`, `ielts`, `oxford`], `n. 生物学\n[化] 生物; 生物学`);
-    AddWord(`bird`, `bә:d`, [`zk`, `gk`, `oxford`], `n. 鸟, 羽毛球\nvi. 打鸟`);
+    AddWord(`bird`, `bә:d`, [`zk`, `gk`, `oxford`, `basic`], `n. 鸟, 羽毛球\nvi. 打鸟`);
     AddWord(`birdcage`, `'bә:dkeidʒ`, [`gk`], `n. 鸟笼`);
     AddWord(`birth`, `bә:θ`, [`zk`, `gk`, `cet4`, `ky`, `ielts`, `oxford`], `n. 出生, 起源\n[医] 生产, 分娩`);
     AddWord(`birthday`, `'bә:θdei`, [`zk`, `gk`, `oxford`], `n. 生日`);
     AddWord(`birthplace`, `'bә:θpleis`, [`gk`], `n. 诞生地`);
     AddWord(`biscuit`, `'biskit`, [`zk`, `gk`, `cet4`, `ky`, `oxford`], `n. 饼干\n[化] 素坯; 饼干`);
     AddWord(`bishop`, `'biʃәp`, [`gk`, `cet6`], `n. 主教, (国际象棋中的)象, 热果子酒`);
-    AddWord(`bit`, `bit`, [`zk`, `gk`, `gre`, `oxford`], `n. 少量, 马嚼子, 辅币\nvt. 给马上嚼子, 控制\nbite的过去式和过去分词\n[计] 比特, 二进制数位, 机内测试`);
+    AddWord(`bit`, `bit`, [`zk`, `gk`, `gre`, `oxford`, `basic`], `n. 少量, 马嚼子, 辅币\nvt. 给马上嚼子, 控制\nbite的过去式和过去分词\n[计] 比特, 二进制数位, 机内测试`);
     AddWord(`bite`, `bait`, [`gk`, `cet4`, `ky`, `toefl`, `ielts`, `oxford`], `n. 咬, 一口\nv. 咬, 刺痛, 穿透`);
     AddWord(`bitter`, `'bitә`, [`zk`, `gk`, `cet4`, `ky`, `toefl`, `ielts`, `oxford`], `a. 苦的, 痛苦的, 怀恨的\nadv. 刺骨\nv. (使)变苦`);
     AddWord(`black`, `blæk`, [`zk`, `gk`, `ielts`, `oxford`], `n. 黑色, 黑颜料\na. 黑色的`);
@@ -450,7 +450,7 @@ function ImportWordsData() {
     AddWord(`bond`, `bɒnd`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `n. 捆绑物, 结合, 债券, 契约, 粘合剂, 保证人, 键, 关栈保留\nvt. 存入关栈, 使黏合\nvi. 结合`);
     AddWord(`bone`, `bәun`, [`gk`, `cet4`, `ky`, `oxford`], `n. 骨头, 骨, 骨制品\nvt. 剔骨\nvi. 专心致志`);
     AddWord(`bonus`, `'bәunәs`, [`gk`, `cet6`, `ky`, `toefl`, `ielts`], `n. 奖金, 红利\n[经] 奖金, 红利, 额外补贴`);
-    AddWord(`book`, `buk`, [`zk`, `gk`, `ielts`, `oxford`], `n. 书, 书籍, 帐簿, 名册, 工作簿\nv. 登记, 预订\n[计] 工作簿`);
+    AddWord(`book`, `buk`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `n. 书, 书籍, 帐簿, 名册, 工作簿\nv. 登记, 预订\n[计] 工作簿`);
     AddWord(`bookcase`, `'bukkeis`, [`gk`, `ielts`], `n. 书架, 书柜`);
     AddWord(`bookmark`, `'bukmɑ:k`, [`gk`], `n. 书签\n[计] 书签`);
     AddWord(`bookshelf`, `'bukʃelf`, [`gk`, `ielts`], `n. 书架`);
@@ -470,6 +470,7 @@ function ImportWordsData() {
     AddWord(`both`, `bәuθ`, [`zk`, `gk`, `oxford`], `a. 两者的\nadv. 两者都\npron. 两者`);
     AddWord(`bottle`, `'bɒtl`, [`zk`, `gk`, `oxford`], `n. 瓶子, 酒瓶\nvt. 装瓶, 抑制, 围困`);
     AddWord(`bottom`, `'bɒtәm`, [`zk`, `gk`, `cet4`, `ky`, `oxford`], `n. 底部\na. 底部的\nvt. 给...装底, 查明真相\nvi. 到达底部, 建立基础`);
+    AddWord(`bought`, `bɒ:t`, [``, `basic`], `a. 买来的\nbuy的过去式和过去分词`);
     AddWord(`bounce`, `bauns`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `n. 跳, 跳跃, 弹力, 撞击\nvi. 反跳, 弹跳\nvt. 使跳回, 撞击\n[计] 打回`);
     AddWord(`bound`, `baund`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 跃, 回跳, 范围, 边界\na. 受约束的, 装有封面的, 有义务的, 关联的, 被束缚的, 准备去...的, 便秘的\nvi. 跳跃, 弹起\nvt. 使跳, 限制, 形成...的疆界\nbind过去式和过去分词\n[计] 装订的`);
     AddWord(`boundary`, `'baundri`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `n. 边界, 分界线\n[计] 边界`);
@@ -538,7 +539,7 @@ function ImportWordsData() {
     AddWord(`businessman`, `'biznismæn`, [`gk`, `oxford`], `n. 商人, 实业家, 工商业家`);
     AddWord(`businesswoman`, `'bizniswjmæn`, [`gk`], `n. 商人, 办理实务的人, 经商者`);
     AddWord(`busy`, `'bizi`, [`zk`, `gk`, `oxford`], `a. 忙碌的, 热闹的, 没空的\nvt. 使忙\nvi. 忙碌\n[计] 忙; 忙碌`);
-    AddWord(`but`, `bʌt`, [`zk`, `gk`, `oxford`], `prep. 除了\nconj. 但是\nadv. 仅仅`);
+    AddWord(`but`, `bʌt`, [`zk`, `gk`, `oxford`, `basic`], `prep. 除了\nconj. 但是\nadv. 仅仅`);
     AddWord(`butcher`, `'butʃә`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`], `n. 屠夫, 肉商, 小贩\nvt. 屠宰, 屠杀`);
     AddWord(`butter`, `'bʌtә`, [`zk`, `gk`, `cet4`, `ky`, `toefl`, `oxford`], `n. 奶油, 黄油\nvt. 涂黄油于`);
     AddWord(`butterfly`, `'bʌtәflai`, [`zk`, `gk`, `cet4`, `ky`, `toefl`, `ielts`], `n. 蝴蝶\n[医] 蝶式棉块, 翼形皮癣, 纸蝶`);
@@ -602,6 +603,7 @@ function ImportWordsData() {
     AddWord(`cathedral`, `kә'θi:drәl`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `gre`], `n. 大教堂`);
     AddWord(`catholic`, `'kæθәlik`, [`gk`, `cet6`, `ky`, `toefl`, `ielts`, `gre`], `n. 天主教徒\na. 天主教的, 普遍的, 广泛的, 宽宏大量的`);
     AddWord(`cattle`, `kætl`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`], `n. 牛, 家畜\n[法] 家畜`);
+    AddWord(`caught`, `kɒ:t`, [``, `basic`], `catch的过去式和过去分词`);
     AddWord(`cause`, `kɒ:z`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 原因, 目标\nvt. 引起, 使产生, 使遭受`);
     AddWord(`caution`, `'kɒ:ʃәn`, [`gk`, `cet6`, `ky`, `toefl`, `ielts`], `n. 小心, 慎重, 警示\nvt. 警告\n[计] 警告`);
     AddWord(`cautious`, `'kɒ:ʃәs`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `a. 谨慎的, 小心的`);
@@ -1053,7 +1055,8 @@ function ImportWordsData() {
     AddWord(`dog`, `dɒg`, [`zk`, `gk`, `oxford`], `n. 狗, 坏蛋\nvt. 跟踪, 尾随`);
     AddWord(`doll`, `dɒl`, [`zk`, `gk`, `ky`, `toefl`], `n. 洋娃娃, 无头脑的美丽女人`);
     AddWord(`dollar`, `'dɒlә`, [`zk`, `gk`, `oxford`], `n. 美元, 元(加、澳等国货币单位)\n[经] 纯经济的, 美元, 元`);
-    AddWord(`door`, `dɒ:`, [`zk`, `gk`, `oxford`], `n. 门`);
+    AddWord(`done`, `dʌn`, [``, `basic`], `a. 完成了的, 好了的\ndo的过去分词`);
+    AddWord(`door`, `dɒ:`, [`zk`, `gk`, `oxford`, `basic`], `n. 门`);
     AddWord(`dormitory`, `'dɒ:mitәri`, [`gk`, `cet4`, `cet6`, `toefl`], `n. 宿舍`);
     AddWord(`dot`, `dɒt`, [`gk`, `cet4`, `ky`, `toefl`, `ielts`, `oxford`], `n. 点, 圆点, 小数点, 小东西, 嫁妆\nvt. 作小点记号, 加小点于\nvi. 打上点\n[计] 点`);
     AddWord(`double`, `'dʌbl`, [`zk`, `gk`, `ielts`, `oxford`], `n. 两倍\na. 两倍的, 双重的\nvt. 使加倍\nvi. 加倍, 代替, 快步走\n[计] 双精度型`);
@@ -1282,7 +1285,7 @@ function ImportWordsData() {
     AddWord(`feast`, `fi:st`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`], `n. 宴会, 酒席, 享受, 节日\nvt. 款待, 享乐, 请客\nvi. 参加宴会, 尽情地吃, 享受`);
     AddWord(`feather`, `'feðә`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 羽毛\nvi. 长羽毛\nvt. 用羽毛装饰`);
     AddWord(`February`, `'februәri`, [`zk`, `gk`, `oxford`], `n. 二月`);
-    AddWord(`fee`, `fi:`, [`gk`, `cet4`, `ky`, `ielts`, `oxford`], `n. 费用, 小费, 封地, 所有权\nvt. 付费给`);
+    AddWord(`fee`, `fi:`, [`gk`, `cet4`, `ky`, `ielts`, `oxford`, `basic`], `n. 费用, 小费, 封地, 所有权\nvt. 付费给`);
     AddWord(`feed`, `fi:d`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `n. 饲料, 一餐, 饲养\nvt. 喂, 饲养, 放牧, 靠...为生\nvi. 吃东西, 用餐, 流入\n[计] 送纸`);
     AddWord(`feel`, `fi:l`, [`zk`, `gk`, `ielts`, `oxford`], `vt. 感觉, 觉得, 触摸, 以为\nvi. 有知觉, 摸索, 同情\nn. 感觉, 觉得, 触摸`);
     AddWord(`feeling`, `'fi:liŋ`, [`zk`, `gk`, `cet4`, `ky`, `oxford`], `n. 摸, 触觉, 知觉, 感觉, 情绪, 同情\na. 有同情心的, 有感觉的, 仁慈的, 动人的`);
@@ -1322,10 +1325,10 @@ function ImportWordsData() {
     AddWord(`firm`, `fә:m`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 公司, 商号\na. 坚定的, 坚强的, 牢固的, 结实的, 坚硬的, 坚挺的, 严格的, 确定的\nvt. 使牢固, 使坚定\nvi. 变稳固, 变坚实\nadv. 稳固地`);
     AddWord(`firmly`, `'fә:mli`, [`gk`, `oxford`], `adv. 坚固, 坚定, 断然`);
     AddWord(`first`, `fә:st`, [`zk`, `gk`, `oxford`], `adv. 首先, 第一, 优先\na. 第一的\nnum. 第一\nn. 开始, 第一`);
-    AddWord(`fish`, `fiʃ`, [`zk`, `gk`, `ielts`, `oxford`], `n. 鱼, 鱼肉, 鱼类, 接合板\nvt. 钓, 钓鱼, 查出, 用接合板连接\nvi. 捕鱼, 钓鱼, 用钩捞取, 摸索寻找`);
+    AddWord(`fish`, `fiʃ`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `n. 鱼, 鱼肉, 鱼类, 接合板\nvt. 钓, 钓鱼, 查出, 用接合板连接\nvi. 捕鱼, 钓鱼, 用钩捞取, 摸索寻找`);
     AddWord(`fisherman`, `'fiʃәmәn`, [`zk`, `gk`, `cet4`, `cet6`, `ky`], `n. 渔夫, 钓鱼者, 渔船`);
     AddWord(`fist`, `fist`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `n. 拳头, 手\nvt. 拳打, 握成拳, 紧握`);
-    AddWord(`fit`, `fit`, [`zk`, `gk`, `toefl`, `ielts`, `oxford`], `n. 适宜, 合身, 发作, 痉挛\na. 适宜的, 对的, 准备好的\nvt. 适合, 安装, 使合身, 使适应, 使合格\nvi. 适合, 符合, 合身\n[计] 非特`);
+    AddWord(`fit`, `fit`, [`zk`, `gk`, `toefl`, `ielts`, `oxford`, `basic`], `n. 适宜, 合身, 发作, 痉挛\na. 适宜的, 对的, 准备好的\nvt. 适合, 安装, 使合身, 使适应, 使合格\nvi. 适合, 符合, 合身\n[计] 非特`);
     AddWord(`five`, `faiv`, [`zk`, `gk`], `num. 五, 五个`);
     AddWord(`fix`, `fiks`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `vt. 使固定, 修理, 准备, 安装, 凝视, 牢记, 确定, 整理\nvi. 固定, 注视, 确定\nn. 困境, 方位, 维修, 贿赂`);
     AddWord(`flag`, `flæg`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `gre`, `oxford`], `n. 标志, 旗标, 旗子, 信号旗, 菖蒲\nvt. 悬旗, 打旗号, 铺石板\nvi. 无力地下垂\n[计] 标志; 属性标记命令`);
@@ -1356,7 +1359,7 @@ function ImportWordsData() {
     AddWord(`follow`, `'fɒlәu`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `vt. 跟随, 沿行, 遵循, 追求\nvi. 跟随, 接着\nn. 跟随, 追随`);
     AddWord(`following`, `'fɒlәuiŋ`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 下列各项, 部下, 追随者\na. 下列的, 其次的`);
     AddWord(`fond`, `fɒnd`, [`gk`, `cet4`, `cet6`, `ky`], `a. 喜欢的, 宠爱的, 温柔的`);
-    AddWord(`food`, `fu:d`, [`zk`, `gk`, `ielts`, `oxford`], `n. 食物, 养料\n[医] 食物, 食品`);
+    AddWord(`food`, `fu:d`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `n. 食物, 养料\n[医] 食物, 食品`);
     AddWord(`fool`, `fu:l`, [`gk`, `cet4`, `ky`], `n. 愚人, 受骗者, 奶油拌水果\nvt. 愚弄, 欺骗, 浪费\nvi. 干傻事, 开玩笑, 游荡\na. 傻的`);
     AddWord(`foolish`, `'fu:liʃ`, [`gk`, `cet4`, `ky`, `toefl`], `a. 愚蠢的, 傻的`);
     AddWord(`foot`, `fut`, [`zk`, `gk`, `ielts`, `oxford`], `n. 脚, 步调, 英尺, 底部, 末尾, 步兵\nvt. 走在...上, 给...换底, 支付\nvi. 跳舞, 步行, 总计`);
@@ -1455,7 +1458,7 @@ function ImportWordsData() {
     AddWord(`German`, `'dʒә:mәn`, [`gk`, `cet4`, `cet6`, `ielts`], `n. 德国人, 德语\na. 德国的, 德国人的, 德国语的, 同父母的`);
     AddWord(`Germany`, `'dʒә:mәni`, [`gk`, `cet4`, `cet6`, `ielts`], `n. 德国`);
     AddWord(`gesture`, `'dʒestʃә`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `gre`], `n. 手势, 姿态\nvi. 作手势, 作姿态`);
-    AddWord(`get`, `get`, [`zk`, `gk`, `ielts`, `oxford`], `vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上\nvi. 到达, 成为, 变得\nn. (网球等)救球, 生殖, 幼兽\n[计] 取得指令, 获取文件`);
+    AddWord(`get`, `get`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `vt. 得到, 获得, 变成, 使得, 收获, 接通, 抓住, 染上\nvi. 到达, 成为, 变得\nn. (网球等)救球, 生殖, 幼兽\n[计] 取得指令, 获取文件`);
     AddWord(`gift`, `gift`, [`zk`, `gk`, `oxford`], `n. 礼物, 赠予, 天才\nvt. 赋予`);
     AddWord(`gifted`, `'giftid`, [`gk`, `toefl`], `a. 有天才的`);
     AddWord(`giraffe`, `dʒi'rɑ:f`, [`zk`, `gk`], `n. 长颈鹿, 鹿豹座`);
@@ -1478,7 +1481,7 @@ function ImportWordsData() {
     AddWord(`golden`, `'gәuldn`, [`zk`, `gk`, `cet4`, `cet6`, `ky`], `a. 金的, 含金的, 金色的, 贵重的, 繁盛的\n[法] 金制的, 金色的, 兴隆的`);
     AddWord(`goldfish`, `'gәuldfiʃ`, [`gk`], `n. 金鱼`);
     AddWord(`golf`, `gɒlf`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`], `n. 高尔夫球\nvi. 打高尔夫球`);
-    AddWord(`good`, `gud`, [`zk`, `gk`, `ielts`, `oxford`], `n. 善行, 好处, 利益\na. 好的, 优良的, 上等的, 愉快的, 有益的, 好心的, 慈善的, 虔诚的`);
+    AddWord(`good`, `gud`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `n. 善行, 好处, 利益\na. 好的, 优良的, 上等的, 愉快的, 有益的, 好心的, 慈善的, 虔诚的`);
     AddWord(`goodbye`, `gud'bai`, [`zk`, `oxford`], `interj. 再见`);
     AddWord(`goodness`, `'gudnis`, [`gk`, `cet4`, `cet6`, `ky`], `n. 仁慈, 善良`);
     AddWord(`goods`, `guds`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 货物\n[经] 货物, 商品, 动产`);
@@ -1601,7 +1604,7 @@ function ImportWordsData() {
     AddWord(`help`, `help`, [`zk`, `gk`, `oxford`], `n. 帮忙, 帮助者, 补救办法, 有益的东西\nvt. 帮助, 帮忙, 接济, 治疗, 款待\nvi. 有用, 救命, 招待\n[计] 帮助, 帮助程序; DOS外部命令: DOS命令的电子文件帮助程序`);
     AddWord(`helpful`, `'helpful`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `a. 有帮助的, 有益的, 有用的`);
     AddWord(`hen`, `hen`, [`zk`, `gk`, `cet4`, `ky`], `n. 母鸡, 雌禽`);
-    AddWord(`her`, `hә:`, [`zk`, `gk`, `oxford`], `pron. 她的, 她`);
+    AddWord(`her`, `hә:`, [`zk`, `gk`, `oxford`, `basic`], `pron. 她的, 她`);
     AddWord(`herb`, `hә:b`, [`gk`, `cet6`, `ky`, `toefl`, `ielts`], `n. 药草, 香草\n[医] 草, 草本, 草药`);
     AddWord(`here`, `hiә`, [`zk`, `gk`, `oxford`], `adv. 在这里, 此时, 这里\nn. 这里`);
     AddWord(`hero`, `'hiәrәu`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 英雄, 超越常人者, 男主角`);
@@ -1623,7 +1626,7 @@ function ImportWordsData() {
     AddWord(`hire`, `haiә`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 租金, 租用, 雇用\nvt. 雇请, 出租\nvi. 受雇`);
     AddWord(`his`, `hiz`, [`zk`, `gk`, `oxford`], `pron. 他的\n[化] 组氨酸`);
     AddWord(`history`, `'histәri`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 历史, 过去, 经历, 发展过程, 历史学, 过去的事, 历史记录\n[计] 历史记录`);
-    AddWord(`hit`, `hit`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 打击, 打, 冲撞, 讽刺\nvt. 打, 打击, 碰撞, 打中, 袭击, 偶然碰上\nvi. 打, 打中, 打击, 碰撞, 偶然碰上\n[计] 击中; 找到; 瞬时打扰`);
+    AddWord(`hit`, `hit`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`, `basic`], `n. 打击, 打, 冲撞, 讽刺\nvt. 打, 打击, 碰撞, 打中, 袭击, 偶然碰上\nvi. 打, 打中, 打击, 碰撞, 偶然碰上\n[计] 击中; 找到; 瞬时打扰`);
     AddWord(`hive`, `haiv`, [`gk`, `toefl`, `gre`], `n. 蜂房, 闹区, 蜜蜂群\nvi. 进入蜂房, 储藏蜜于蜂房, 如蜂般群居\nvt. 使进蜂房, 储备\n[计] 蜂巢`);
     AddWord(`hobby`, `'hɒbi`, [`zk`, `gk`, `ielts`, `oxford`], `n. 嗜好, 癖好, 爱好`);
     AddWord(`hold`, `hәuld`, [`zk`, `gk`, `ielts`, `gre`, `oxford`], `n. 把握, 把持力, 柄, 控制, 掌握, 监禁\nvt. 保存, 握住, 拿住, 占据, 持有, 拥有\nvi. 支持, 持续, 有效\nn. 保留\n[计] 保留`);
@@ -1849,17 +1852,17 @@ function ImportWordsData() {
     AddWord(`laughter`, `'lɑ:ftә`, [`gk`, `cet4`, `cet6`, `ky`], `n. 笑, 笑声\n[医] 笑, 大笑`);
     AddWord(`laundry`, `'lɒ:ndri`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `n. 洗衣店, 洗好的衣服, 洗涤\n[机] 洗衣作, 洗衣店, 洗衣房`);
     AddWord(`lavatory`, `'lævәtәri`, [`gk`, `cet4`, `cet6`, `ky`], `n. 洗脸盆, 厕所`);
-    AddWord(`law`, `lɒ:`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 法律, 法则, 定律, 法律的制约, 法学, 司法界, 诉讼\nv. 起诉`);
+    AddWord(`law`, `lɒ:`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`, `basic`], `n. 法律, 法则, 定律, 法律的制约, 法学, 司法界, 诉讼\nv. 起诉`);
     AddWord(`lawyer`, `'lɒ:jә`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 律师\n[经] 律师`);
     AddWord(`lay`, `lei`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `vt. 放置, 产, 铺设, 布置, 提出, 平息\nvi. 下蛋, 打赌\nn. 位置, 层, 隐藏处\na. 世俗的, 外行的\nlie的过去式`);
     AddWord(`lazy`, `'leizi`, [`zk`, `gk`, `cet4`, `ky`, `oxford`], `a. 懒惰的, 怠惰的, 缓慢的\nvi. 懒散`);
-    AddWord(`lead`, `li:d. led`, [`zk`, `gk`, `cet4`, `ky`, `toefl`, `oxford`], `n. 铅, 铅条, 领导, 超前量, 领引, 榜样, 主角, 导线\nvt. 引导, 带领, 领导, 指挥, 致使, 加铅于, 用铅包\nvi. 领导, 带头, 导致, 用测深锤测深, 被铅覆盖\na. 带头的, 最重要的`);
+    AddWord(`lead`, `li:d. led`, [`zk`, `gk`, `cet4`, `ky`, `toefl`, `oxford`, `basic`], `n. 铅, 铅条, 领导, 超前量, 领引, 榜样, 主角, 导线\nvt. 引导, 带领, 领导, 指挥, 致使, 加铅于, 用铅包\nvi. 领导, 带头, 导致, 用测深锤测深, 被铅覆盖\na. 带头的, 最重要的`);
     AddWord(`leader`, `'li:dә`, [`zk`, `gk`, `cet4`, `cet6`, `oxford`], `n. 领导者, 社论, 指挥, 领袖, 领唱者, 前导字符\n[计] 前导字符`);
     AddWord(`leading`, `'li:diŋ`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `n. 领导, 指挥, 神示, 铅板\na. 领导的, 主要的, 在前的`);
     AddWord(`leaf`, `li:f`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 叶, 树叶, 花瓣, 页\nvi. 生叶, 翻书页\nvt. 在...上长叶, 翻...的页`);
     AddWord(`league`, `li:g`, [`gk`, `toefl`, `oxford`], `n. 同盟, 联盟, 盟约\nv. 组联盟, (使)加盟`);
     AddWord(`leak`, `li:k`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `gre`], `n. 漏洞, 漏处, 漏出, 泄漏\nvi. 漏, 泄漏\nvt. 使渗漏`);
-    AddWord(`learn`, `lә:n`, [`zk`, `gk`, `ielts`, `oxford`], `vt. 学习；认识到；得知`);
+    AddWord(`learn`, `lә:n`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `vt. 学习；认识到；得知`);
     AddWord(`learned`, `'lә:nid`, [`gk`, `cet4`, `cet6`, `ky`], `a. 有学问的, 学术上的\nlearn的过去式和过去分词`);
     AddWord(`least`, `li:st`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 最少, 最小, 最小限度\na. 最少的, 最小的\nadv. 最小, 最少`);
     AddWord(`leather`, `'leðә`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `n. 皮革, 皮制品, 马镫的皮带\nvt. 覆以皮革, 鞭苔, 抽打\na. 皮革的, 皮制的`);
@@ -1901,6 +1904,7 @@ function ImportWordsData() {
     AddWord(`liquid`, `'likwid`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `gre`, `oxford`], `n. 液体, 流体, 流音\na. 液体的, 透明的, 明亮的, 流动的, 易变的`);
     AddWord(`list`, `list`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `gre`, `oxford`], `n. 目录, 名单, 明细表, 布条, 条纹, 列表, 序列, 数据清单\nvt. 列出, 列于表上, 记入名单内, 装布条\nvi. 列于表上\n[计] 列表, 序列, 数据清单`);
     AddWord(`listen`, `'lisn`, [`zk`, `gk`, `oxford`], `vi. 听, 倾听, 听从\nn. 听, 倾听`);
+    AddWord(`lit`, `lit`, [``, `basic`], `light的过去式和过去分词`);
     AddWord(`literary`, `'litәrәri`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`], `a. 文学的, 文艺的, 精通文学的\n[法] 文学的, 从事文学的, 从事写作的`);
     AddWord(`literature`, `'litәrәtʃә`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 文学, 文艺, 著作\n[经] 广告, 商品介绍等文学`);
     AddWord(`litre`, `li:tә(r)`, [`gk`, `ky`, `oxford`], `n. 升, 公升\n[计] 升`);
@@ -1917,8 +1921,8 @@ function ImportWordsData() {
     AddWord(`London`, `'lʌndәn`, [`zk`, `gk`, `ielts`], `n. 伦敦`);
     AddWord(`lonely`, `'lәunli`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `a. 孤单的, 孤寂的, 荒凉的`);
     AddWord(`long`, `lɒŋ`, [`zk`, `gk`, `toefl`, `oxford`], `a. 长的, 长久的, 冗长的, 做多头的\nvi. 渴望, 热望, 极想\nadv. 长久, 始终\nn. 长时间, 长信号, 长整型\n[计] 长, 长整型`);
-    AddWord(`look`, `luk`, [`zk`, `gk`, `oxford`], `n. 一看, 神色, 样子, 面容\nvi. 看, 注意, 朝着, 显得\nvt. 打量, 看上去与...一样, 以眼色(或脸色)显示, 期待`);
-    AddWord(`loose`, `lu:s`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `n. 发射, 放任, 放纵\na. 宽松的, 松的, 宽的, 不牢固的, 散漫的, 自由的, 不精确的\nvt. 释放, 放枪, 开船\nvi. 变松, 开火\nadv. 松散地`);
+    AddWord(`look`, `luk`, [`zk`, `gk`, `oxford`, `basic`], `n. 一看, 神色, 样子, 面容\nvi. 看, 注意, 朝着, 显得\nvt. 打量, 看上去与...一样, 以眼色(或脸色)显示, 期待`);
+    AddWord(`loose`, `lu:s`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`, `basic`], `n. 发射, 放任, 放纵\na. 宽松的, 松的, 宽的, 不牢固的, 散漫的, 自由的, 不精确的\nvt. 释放, 放枪, 开船\nvi. 变松, 开火\nadv. 松散地`);
     AddWord(`lorry`, `'lɒri`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 卡车, 货车\n[化] 载重汽车`);
     AddWord(`lose`, `lu:z`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去, 使沉溺于\nvi. 受损失, 失败`);
     AddWord(`loss`, `lɒs`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 损失, 遗失, 失败, 输, 错过, 伤亡\n[化] 损失; 损耗`);
@@ -1986,7 +1990,7 @@ function ImportWordsData() {
     AddWord(`means`, `mi:nz`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 方法, 手段, 工具, 财产, 收入\n[经] 方法, 手段, 工具; 意谓`);
     AddWord(`meanwhile`, `'mi:nhwail`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 其时, 其间\nadv. 同时, 于此时`);
     AddWord(`measure`, `'meʒә`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 尺寸, 量度器, 量度标准, 测量, 量具, 程度, 范围, 限度, 分寸, 措施, 方法\nvt. 测量, 测度, 估量, 权衡, 调节, 拿(自己或自己的力量等)作较量\nvi. 度量`);
-    AddWord(`meat`, `mi:t`, [`zk`, `gk`, `ielts`, `oxford`], `n. 肉, 餐, 食物\n[经] 肉类`);
+    AddWord(`meat`, `mi:t`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `n. 肉, 餐, 食物\n[经] 肉类`);
     AddWord(`medal`, `'medl`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `gre`], `n. 奖牌, 勋章\nvt. 授勋予`);
     AddWord(`media`, `'mi:diә`, [`gk`, `cet4`, `cet6`, `toefl`, `ielts`, `oxford`], `n. 媒体\n[计] 媒质`);
     AddWord(`medical`, `'medikl`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 医生, 体格检查\na. 医学的, 内科的, 药的`);
@@ -2101,7 +2105,7 @@ function ImportWordsData() {
     AddWord(`music`, `'mju:zik`, [`zk`, `gk`, `ielts`, `oxford`], `n. 音乐, 乐曲`);
     AddWord(`musical`, `'mju:zikl`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 音乐片, 音乐舞台剧\na. 音乐的, 声音美妙的, 喜爱音乐的`);
     AddWord(`musician`, `mju:'ziʃәn`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 音乐家, 乐师, 作曲家`);
-    AddWord(`must`, `mʌst`, [`zk`, `oxford`], `n. 必须, 未发酵葡萄汁, 绝对必要的事物\naux. 必须`);
+    AddWord(`must`, `mʌst`, [`zk`, `oxford`, `basic`], `n. 必须, 未发酵葡萄汁, 绝对必要的事物\naux. 必须`);
     AddWord(`mustard`, `'mʌstәd`, [`gk`, `cet6`], `n. 芥末, 芥菜, 强烈的兴趣\n[医] 芥子; 芥属植物`);
     AddWord(`mutton`, `'mʌtn`, [`gk`, `cet4`, `cet6`, `ky`, `gre`], `n. 羊肉`);
     AddWord(`my`, `mai`, [`zk`, `gk`, `oxford`], `pron. 我的\n[医] 迈尔(热容单位)`);
@@ -2325,7 +2329,7 @@ function ImportWordsData() {
     AddWord(`pattern`, `'pætәn`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 模范, 典型, 式样, 样品, 图案, 格调, 模式\nvt. 模仿, 仿造, 以图案装饰\nvi. 形成图案\n[计] 模式, 图案`);
     AddWord(`pause`, `pɒ:z`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 暂停, 中止, 停顿, 间歇, 踌躇, 休止符\nvi. 暂停, 中止, 停顿, 踌躇\n[计] DOS内部命令:暂时停止批处理文件的执行`);
     AddWord(`pay`, `pei`, [`zk`, `gk`, `ielts`, `oxford`], `n. 薪资, 付款, 补偿\nvt. 支付, 付清, 补偿, 偿还, 对...有利, 为...涂防水物\nvi. 付款, 付出代价, 偿还, 得到报应, 获得好处`);
-    AddWord(`pea`, `pi:`, [`gk`, `cet4`, `cet6`, `ky`], `n. 豌豆, 似豌豆的东西`);
+    AddWord(`pea`, `pi:`, [`gk`, `cet4`, `cet6`, `ky`, `basic`], `n. 豌豆, 似豌豆的东西`);
     AddWord(`peace`, `pi:s`, [`zk`, `gk`, `cet4`, `ky`, `oxford`], `n. 和平, 和约, 治安, 和睦, 安宁, 静寂\nvi. 安静下来, 不作声`);
     AddWord(`peaceful`, `'pi:sful`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `a. 平静的, 和平的, 和平时期的, 爱好和平的, 喜爱安静的\n[法] 和平的, 爱好和平的, 和平时期的`);
     AddWord(`peach`, `pi:tʃ`, [`gk`, `cet4`, `cet6`, `ky`], `n. 桃子, 桃树, 桃色, 美人儿, 极好的事物\nvt. 告发\nvi. 告密, 检举`);
@@ -2352,13 +2356,13 @@ function ImportWordsData() {
     AddWord(`permanent`, `'pә:mәnәnt`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `gre`, `oxford`], `a. 永久的, 不变的, 固定的, 持久的\nn. 烫发\n[计] 永久的`);
     AddWord(`permission`, `pә'miʃәn`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `n. 许可, 允许\n[计] 许可, 认可`);
     AddWord(`permit`, `pә'mit`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 许可证, 许可, 执照, 通行证\nvt. 允许, 容许, 可能, 使放手做\nvi. 容许, 给以机会, 提供可能`);
-    AddWord(`person`, `'pә:sn`, [`zk`, `gk`, `ielts`, `oxford`], `n. 人, 人身, 人称\n[法] 人, 法人, 人身`);
+    AddWord(`person`, `'pә:sn`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `n. 人, 人身, 人称\n[法] 人, 法人, 人身`);
     AddWord(`personal`, `'pә:snl`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `a. 私人的, 涉及隐私的, 有人性的, 人称的, 亲自的, 身体的\n[医] 人的; 个人的, 自身的`);
     AddWord(`personally`, `'pә:sәnli`, [`gk`, `oxford`], `adv. 亲自地, 个别地, 当面, 就本人而言, 针对个人地`);
     AddWord(`personnel`, `.pә:sә'nel`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `gre`], `n. 人员, 人事部门, 人事科(处)\n[经] 人事, 全体人员, 职工`);
     AddWord(`persuade`, `pә'sweid`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `vt. 劝, 使相信, 恳求, 敦促, 说服\nvi. 劝服, 被说服`);
     AddWord(`pest`, `pest`, [`gk`, `cet6`, `ky`, `toefl`, `gre`], `n. 令人讨厌之物, 有害之物, 害虫, 瘟疫\n[医] 鼠疫, 瘟疫`);
-    AddWord(`pet`, `pet`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 宠物, 受宠爱的人, 宠坏的孩子, 不悦, 生气\na. 宠爱的, 表示亲昵的, 养着观赏的, 特别珍爱的, 格外的\nvt. 宠爱, 溺爱, 抚摸\nvi. 拥抱, 爱抚, 生气, 发脾气`);
+    AddWord(`pet`, `pet`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`, `basic`], `n. 宠物, 受宠爱的人, 宠坏的孩子, 不悦, 生气\na. 宠爱的, 表示亲昵的, 养着观赏的, 特别珍爱的, 格外的\nvt. 宠爱, 溺爱, 抚摸\nvi. 拥抱, 爱抚, 生气, 发脾气`);
     AddWord(`petrol`, `'petrәl`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 汽油\n[经] 汽油, 挥发油, 石油`);
     AddWord(`phenomenon`, `fi'nɒminәn`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`], `n. 现象, 迹象, 表现, 奇迹, 奇才\n[化] 现象`);
     AddWord(`phone`, `fәun`, [`zk`, `cet4`, `ky`, `ielts`, `oxford`], `n. 电话, 受话器, 耳机\nvt. 打电话给\nvi. 打电话`);
@@ -2389,6 +2393,7 @@ function ImportWordsData() {
     AddWord(`pint`, `paint`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 品脱(干量或液量的单位)\n[医] 量磅, 品脱`);
     AddWord(`pioneer`, `.paiә'niә`, [`zk`, `gk`, `toefl`], `n. 先锋, 拓荒者, 创始人\nvt. 提倡, 开辟, 开创, 倡导\nvi. 作先驱, 开路\na. 最早的, 开拓的, 先驱的, 有开拓者特点的`);
     AddWord(`pipe`, `paip`, [`gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 管, 导管, 输送管, 管状器官, 声带, 尖细的声音, 烟斗, 笛, 管乐器\nvt. 以管输送, 吹哨子, 吹奏, 尖声唱\nvi. 吹笛, 尖叫, 吹长哨发令\n[计] 管道`);
+    AddWord(`pit`, `pit`, [`cet4`, `cet6`, `ky`, `toefl`, `ielts`, `basic`], `n. 深坑, 矿井, 果核, 地窖, 深渊, 绝境, 陷阱\nvt. 窖藏, 使凹下, 使有麻点, 去...之核, 使留疤痕, 使相斗, 使竞争\nvi. 起凹点, 凹陷`);
     AddWord(`pity`, `'piti`, [`zk`, `gk`, `oxford`], `n. 遗憾, 同情, 怜悯, 憾事, 可惜\nvt. 同情, 怜悯\nvi. 觉得可怜, 有同情心`);
     AddWord(`place`, `pleis`, [`zk`, `gk`, `ielts`, `oxford`], `n. 地方, 地点, 位置, 住所, 座位, 地位, 处境, 特权, 空间, 余地, 职务, 位\nvt. 放置, 寄予, 认出, 评定, 任命\nvi. 名次列前`);
     AddWord(`plain`, `plein`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `gre`, `oxford`], `n. 平原, 草原, 朴实无华的东西, 无格式\na. 简单的, 明白的, 平常的, 不好看的, 朴素的, 清晰的, 普通的, 平坦的, 十足的\nadv. 清楚地, 显然地\n[计] 无格式`);
@@ -2599,7 +2604,7 @@ function ImportWordsData() {
     AddWord(`razor`, `'reizә`, [`gk`, `cet4`, `cet6`, `ky`, `gre`], `n. 剃刀\nvt. 剃`);
     AddWord(`reach`, `ri:tʃ`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 伸出, 延伸, 区域, 范围, 流域, 岬\nvt. 到达, 达到, 伸出, 延伸, 影响\nvi. 达到, 延伸, 伸出手, 传到`);
     AddWord(`react`, `ri'ækt`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `vi. 起反应, 起作用, 反攻\n[医] 应答, 发生反应`);
-    AddWord(`read`, `ri:d`, [`zk`, `gk`, `oxford`], `v. 读, 阅读, 理解\na. 有学问的\nn. 读取, 阅读\n[计] 读取`);
+    AddWord(`read`, `ri:d`, [`zk`, `gk`, `oxford`, `basic`], `v. 读, 阅读, 理解\na. 有学问的\nn. 读取, 阅读\n[计] 读取`);
     AddWord(`reading`, `'ri:diŋ`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `oxford`], `n. 阅读, 知识, 读物\na. 阅读的`);
     AddWord(`ready`, `'redi`, [`zk`, `gk`, `toefl`, `gre`, `oxford`], `n. 预备好的状态, 现款\na. 准备好的, 备用的, 可以使用的\nadv. 预先, 迅速\nvt. 使准备好`);
     AddWord(`real`, `'riәl`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `a. 真的, 真实的, 实际的, 实在的, 不动(产)的, 实数的\nn. 实数, 现实\nadv. 真正地`);
@@ -2785,6 +2790,7 @@ function ImportWordsData() {
     AddWord(`sausage`, `'sɒsidʒ`, [`zk`, `gk`, `cet4`, `cet6`, `ky`], `n. 香肠, 腊肠`);
     AddWord(`savage`, `'sævidʒ`, [`gk`, `cet6`, `ky`, `ielts`, `gre`], `a. 未开化的, 野蛮的, 无礼的, 残酷的, 原始的, 粗鲁的, 未开发的\nvt. 用暴力对付, 凶猛攻击\nn. 原始人, 粗鲁人`);
     AddWord(`save`, `seiv`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `oxford`], `n. 救球\nvt. 解救, 挽救, 储蓄, 保存, 节省, 保留\nvi. 挽救, 节省, 救球\nprep. 除...之外\n[计] 保存`);
+    AddWord(`saw`, `sɒ:`, [`cet4`, `cet6`, `ky`, `basic`], `n. 锯子, 谚语\nvt. 锯, 锯开, 来回移动\nvi. 拉锯, 移动\nsee的过去式`);
     AddWord(`say`, `sei`, [`zk`, `gk`, `ielts`, `oxford`], `vt. 说, 讲, 念, 说明, 指明\nvi. 说, 讲\nn. 意见, 发言权`);
     AddWord(`saying`, `'seiiŋ`, [`gk`], `n. 叙述, 话, 说, 言论`);
     AddWord(`scan`, `skæn`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `gre`], `n. 审视, 浏览, 扫描, 细查\nvt. 细看, 浏览, 扫描, 详细调查, 标出格律\nvi. 押韵, 扫描\n[计] 网络软件目录, 编码与分析系统`);
@@ -2855,7 +2861,7 @@ function ImportWordsData() {
     AddWord(`serve`, `sә:v`, [`zk`, `gk`, `oxford`], `vt. 可作...用, 服务, 经历, 招待, 供应, 送交, 对待\nvi. 服务, 服役, 侍应, 适合, 有用, 开球\nn. 发球, 轮到发球`);
     AddWord(`service`, `'sә:vis`, [`zk`, `gk`, `ielts`, `oxford`], `n. 服务, 贡献, 雇佣, 公职, 服役, 功劳, 仪式, 送达, 行政部门\nvt. 保养, 维修\na. 武装部队的, 服务性的, 仆人的, 耐用的\n[计] 服务, 业务`);
     AddWord(`session`, `'seʃәn`, [`gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 期间, 开庭期, 会议, 学期\n[计] 会话, 对话, 会晤, 通用任务程序`);
-    AddWord(`set`, `set`, [`zk`, `gk`, `ielts`, `oxford`], `n. 日落, 同伙, 组合, 集合, 装置\nvt. 放, 安置, 放置, 设定, 使凝结, 点燃, 确定, 点缀, 使就位, 树立, 分配, 调整\nvi. 日落, 凝固, 定型, 搁住, 结果, 适合\na. 决心的, 规定的, 故意的, 持久的, 固定的, 老套的, 准备好的\n[计] 设置; DOS内部命令:改变或显示分配给环境变量的值`);
+    AddWord(`set`, `set`, [`zk`, `gk`, `ielts`, `oxford`, `basic`], `n. 日落, 同伙, 组合, 集合, 装置\nvt. 放, 安置, 放置, 设定, 使凝结, 点燃, 确定, 点缀, 使就位, 树立, 分配, 调整\nvi. 日落, 凝固, 定型, 搁住, 结果, 适合\na. 决心的, 规定的, 故意的, 持久的, 固定的, 老套的, 准备好的\n[计] 设置; DOS内部命令:改变或显示分配给环境变量的值`);
     AddWord(`settle`, `'setl`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `gre`, `oxford`], `n. 有背长椅\nvt. 决定, 整理, 安放, 使定居, 使平静, 支付, 安排, 解决, 结算\nvi. 停留, 下陷, 沉淀, 澄清, 安下心来, 结清, 定居, 安家`);
     AddWord(`settlement`, `'setlmәnt`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`], `n. 安顿, 解决, 处理, 结算, 殖民, 殖民地, 沉降\n[医] 居住区; 沉渣`);
     AddWord(`settler`, `'setlә`, [`gk`], `n. 移民者, 解决者, 结算员\n[化] 沉淀池; 沉降器; 澄清槽`);
@@ -3164,7 +3170,7 @@ function ImportWordsData() {
     AddWord(`suite`, `swi:t`, [`gk`, `ky`, `toefl`, `ielts`], `n. 随员, 套房, (一)组, (一)套, 组曲, 继之而来的事\n[电] 程序组`);
     AddWord(`summary`, `'sʌmәri`, [`gk`, `cet4`, `cet6`, `ky`, `ielts`, `gre`, `oxford`], `n. 摘要, 概要\na. 摘要的, 简略的\n[计] 摘要; 概要`);
     AddWord(`summer`, `'sʌmә`, [`zk`, `gk`, `ielts`, `oxford`], `n. 夏季, 全盛时期\nvi. 避暑, 过夏天\n[计] 加法器`);
-    AddWord(`sun`, `sʌn`, [`zk`, `gk`, `oxford`], `n. 太阳, 日, 日光, 阳光\nvt. 晒\nvi. 晒太阳`);
+    AddWord(`sun`, `sʌn`, [`zk`, `gk`, `oxford`, `basic`], `n. 太阳, 日, 日光, 阳光\nvt. 晒\nvi. 晒太阳`);
     AddWord(`sunburnt`, `'sʌnb\\\\:nt`, [`gk`], `a. 晒黑的, 有晒斑的, 日炙的`);
     AddWord(`Sunday`, `'sʌndi`, [`zk`, `gk`, `ielts`, `oxford`], `n. 星期日\na. 星期日的, 业余的\nvi. 度星期日`);
     AddWord(`sunglasses`, ``, [`gk`, `toefl`], `n. 太阳镜, 墨镜, 太阳眼镜`);
@@ -3355,7 +3361,7 @@ function ImportWordsData() {
     AddWord(`ton`, `tʌn`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 吨\n[经] 吨`);
     AddWord(`tongue`, `tʌŋ`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `toefl`, `ielts`, `oxford`], `n. 舌, 语言能力, 讲话方式, 语言\nvt. 舔, 斥责, 发...的音\nvi. 使用舌头, 吹管乐器`);
     AddWord(`tonight`, `tә'nait`, [`zk`, `gk`, `oxford`], `n. 今晚, 今夜\nadv. 今晚, 今夜`);
-    AddWord(`too`, `tu:`, [`zk`, `gk`, `oxford`], `adv. 也, 非常, 太`);
+    AddWord(`too`, `tu:`, [`zk`, `gk`, `oxford`, `basic`], `adv. 也, 非常, 太`);
     AddWord(`tool`, `tu:l`, [`zk`, `gk`, `cet4`, `cet6`, `ky`, `oxford`], `n. 工具, 机床, 傀儡\nvt. 用工具加工\nvi. 使用工具`);
     AddWord(`tooth`, `tu:θ`, [`zk`, `gk`, `oxford`], `n. 牙齿, 齿状物, 爱好\nvt. 装以齿, 将...切成齿状\nvi. 啮合`);
     AddWord(`toothache`, `'tu:θeik`, [`zk`, `gk`], `n. 牙痛\n[医] 牙痛`);
