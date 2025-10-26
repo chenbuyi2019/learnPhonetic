@@ -3818,7 +3818,7 @@ function CheckAnswer() {
         return;
     }
     txtInputAnswer.disabled = true;
-    makeButtonsCooldown(buttons, 500);
+    btnCheckAnswer.disabled = true;
     if (answer == lastWord.Word) {
         divResult.innerText = "正确";
         divResult.style.color = "green";

@@ -74,7 +74,7 @@ function CheckAnswer() {
     let answer = txtInputAnswer.value.trim().toLowerCase()
     if (answer.length < 1) { return }
     txtInputAnswer.disabled = true
-    makeButtonsCooldown(buttons, 500)
+    btnCheckAnswer.disabled = true
     if (answer == lastWord.Word) {
         divResult.innerText = "正确"
         divResult.style.color = "green"
